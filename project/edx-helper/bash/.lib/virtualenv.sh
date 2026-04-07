@@ -1,5 +1,3 @@
-. .lib/var
-
 make_venv(){
 mkdir -p $venv
 cd $venv

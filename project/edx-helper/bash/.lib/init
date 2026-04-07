@@ -7,4 +7,5 @@ fi
 if [ ! -f course ];then
 	cp course.example course
 fi
-cd -
+
+cd - >/dev/null
