@@ -1,15 +1,17 @@
-cd .lib
+init(){
+	cd .lib
 
-if [ ! -f auth ];then
-	cp auth.example auth
-fi
+	if [ ! -f auth ];then
+		cp auth.example auth
+	fi
 
-if [ ! -f course ];then
-	cp course.example course
-fi
+	if [ ! -f course ];then
+		cp course.example course
+	fi
 
-if [ ! -f my ];then
-	cp my.example my
-fi
+	if [ ! -f my ];then
+		cp my.example my
+	fi
 
-cd - >/dev/null
+	cd - >/dev/null
+}
