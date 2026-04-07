@@ -1,3 +1,7 @@
+bacDir=~
+
 backup_build(){
-	tar cfvz $venv.tgz $venv
+	if [ ! -f $bacDir/$venv.tgz
+		tar cfvz $bacDir/$venv.tgz $venv
+	fi
 }
