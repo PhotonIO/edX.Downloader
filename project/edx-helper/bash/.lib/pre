@@ -3,3 +3,4 @@
 . .lib/auth
 . .lib/course
 . .lib/virtualenv.sh
+. .lib/git.sh
