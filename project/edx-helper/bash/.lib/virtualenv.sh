@@ -3,7 +3,7 @@ mkdir -p $venv
 cd $venv
 
 if [ ! -d $venv/bin ];then
-	python3 -m venv $venv
+	virtualenv $venv
 	echo "Made virtual environment"
 fi
 }

@@ -1,6 +1,8 @@
 name=edx-helper
 
-photon=~/.uni/photon
+uni=~/uni/
+
+photon=$uni/photon
 
 dl_path=$photon/ark
 
