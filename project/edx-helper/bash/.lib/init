@@ -4,20 +4,20 @@ init(){
 
 	if [ ! -f auth ];then
 		cp auth.example auth
-		restart=true
+		restart="true"
 	fi
 
 	if [ ! -f course ];then
 		cp course.example course
-		restart=true
+		restart="true"
 	fi
 
 	if [ ! -f my ];then
 		cp my.example my
-		restart=true
+		restart="true"
 	fi
 
-	if [ $restart ];then
+	if [ $restart == "true" ];then
 		echo "Initialized, Please re-run"
 		exit
 	fi
