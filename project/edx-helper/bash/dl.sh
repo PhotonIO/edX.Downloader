@@ -1,10 +1,3 @@
-. .lib/var
-. .lib/activate.sh
+. .lib/pre
 
-activate
-
-mkdir -p $dl_path/$course
-
-coursera-helper --cauth $CAUTH --path $dl_path/$course $course 
-
-#bash
+download
