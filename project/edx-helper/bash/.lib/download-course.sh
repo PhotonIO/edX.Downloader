@@ -1,5 +1,3 @@
-. .lib/pre
-
 init_download(){
 	mkdir -p $dl_dir
 	activate_venv

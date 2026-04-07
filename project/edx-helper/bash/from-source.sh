@@ -1,9 +1,11 @@
 . .lib/pre
 
-init_venv
+#init_venv
 
-git_clone
+#git_clone
 
-build
+#build
 
-backup_build
+#backup_build
+
+echo "Installed from Source"

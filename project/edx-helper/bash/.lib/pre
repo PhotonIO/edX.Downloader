@@ -1,5 +1,5 @@
 . .lib/var
-. .lib/init ; init
+. .lib/init.sh ; init
 . .lib/my
 . .lib/auth
 . .lib/course
