@@ -1,5 +1,5 @@
 bacDir=~
-bacName=`dirname $venv`
+bacName=`basename $venv`
 
 backup_build(){
 	if [ ! -f $bacDir/$bacName.tgz ];then
