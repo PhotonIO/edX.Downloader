@@ -12,4 +12,4 @@ bin=$venv/bin/$name
 
 bacDir=/mnt/chromeos/MyFiles/Downloads
 
-git="git@github.com:csyezheng/edx-helper.git"
+git="https://github.com/csyezheng/edx-helper.git"

@@ -4,3 +4,5 @@
 . .lib/course
 . .lib/virtualenv.sh
 . .lib/git.sh
+. .lib/build.sh
+. .lib/bac.sh

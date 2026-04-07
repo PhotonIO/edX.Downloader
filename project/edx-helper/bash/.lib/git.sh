@@ -1,6 +1,7 @@
 git_clone(){
-        if [ ! -d $name ];then
-                cd `dirname $venv`
-                pwd
+        if [ ! -d $venv/$name ];then
+                cd $venv
+		git clone $git
+		echo "Cloned"
         fi
 }
