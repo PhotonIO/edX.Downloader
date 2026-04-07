@@ -1,4 +1,5 @@
 . .lib/var
+. .lib/my
 . .lib/init
 . .lib/auth
 . .lib/course

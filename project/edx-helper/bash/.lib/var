@@ -1,6 +1,6 @@
 name=edx-helper
 
-uni=~/uni/
+uni=~/uni
 
 photon=$uni/photon
 
