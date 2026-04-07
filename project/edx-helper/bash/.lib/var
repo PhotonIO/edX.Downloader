@@ -4,7 +4,7 @@ uni=~/uni
 
 photon=$uni/photon
 
-dl_path=$photon/ark
+dl_dir=$photon/ark
 
 venv=$photon/$name
 
