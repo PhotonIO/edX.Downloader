@@ -1,0 +1,10 @@
+cd .lib
+
+if [ ! -f auth ];then
+	cp auth.example auth
+fi
+
+if [ ! -f course ];then
+	cp course.example course
+fi
+cd -
