@@ -1,8 +1,5 @@
-. .lib/var
-. .lib/activate.sh
+. .lib/pre
 
-activate
+activate_venv
 
-coursera-helper --cauth $CAUTH --list-courses
-
-#bash
+edx-helper -u "$email" -p "$pass" --list-courses

@@ -8,4 +8,8 @@ if [ ! -f course ];then
 	cp course.example course
 fi
 
+if [ ! -f my ];then
+	cp my.example my
+fi
+
 cd - >/dev/null
