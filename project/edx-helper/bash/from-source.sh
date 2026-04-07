@@ -4,4 +4,4 @@ init_venv
 
 git_clone
 
-requirements
+build

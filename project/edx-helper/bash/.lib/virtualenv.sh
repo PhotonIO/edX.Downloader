@@ -1,11 +1,11 @@
 make_venv(){
-mkdir -p $venv
-cd $venv
+	mkdir -p $venv
+	cd $venv
 
-if [ ! -d $venv/bin ];then
-	virtualenv $venv
-	echo "Made virtual environment"
-fi
+	if [ ! -d $venv/bin ];then
+		virtualenv $venv
+		echo "Made virtual environment"
+	fi
 }
 
 activate_venv(){
