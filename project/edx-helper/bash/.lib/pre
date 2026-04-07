@@ -1,6 +1,6 @@
 . .lib/var
+. .lib/init ; init
 . .lib/my
-. .lib/init
 . .lib/auth
 . .lib/course
 . .lib/virtualenv.sh
