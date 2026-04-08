@@ -11,9 +11,11 @@ photon=$uni/photon
 
 dl_dir=$photon/ark
 
-venv=$photon/$name
+venv_name=$developer.$name
 
-bin=$venv/bin/$developer.$name
+venv=$photon/$venv_name
+
+bin=$venv/bin/$name
 
 bacDir=/mnt/chromeos/MyFiles/Downloads
 
