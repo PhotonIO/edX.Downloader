@@ -5,7 +5,5 @@ install_from_source(){
 
 	build
 
-	#backup_build
-
 	echo "Installed from Source"
 }
