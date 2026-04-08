@@ -15,7 +15,7 @@ setup_install(){
 		activate_venv
 	
 		cd $name	
-		python setup.py install
+		python3 setup.py install
 	fi
 }
 
