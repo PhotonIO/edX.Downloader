@@ -6,6 +6,7 @@
 . .lib/virtualenv.sh
 . .lib/git.sh
 . .lib/build.sh
+. .lib/from-source.sh
 . .lib/bac.sh
 . .lib/list-course.sh
 . .lib/download-course.sh
