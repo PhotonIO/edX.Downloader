@@ -1,8 +1,5 @@
-. .lib/var
 . .lib/init.sh ; init
-. .lib/my
-. .lib/auth
-. .lib/course
+. .lib/var/var
 . .lib/virtualenv.sh
 . .lib/git.sh
 . .lib/build.sh

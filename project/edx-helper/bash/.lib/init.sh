@@ -1,5 +1,5 @@
 init(){
-	cd .lib
+	cd .lib/var
 	restart=false
 
 	if [ ! -f auth ];then
