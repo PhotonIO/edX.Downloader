@@ -12,4 +12,6 @@ bin=$venv/bin/$name
 
 bacDir=/mnt/chromeos/MyFiles/Downloads
 
-git="https://github.com/csyezheng/edx-helper.git"
+upstreamgit="https://github.com/csyezheng/edx-helper.git"
+
+git="https://github.com/m-heldt/edx-helper.git"
