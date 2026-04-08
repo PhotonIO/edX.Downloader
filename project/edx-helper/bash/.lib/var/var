@@ -1,3 +1,8 @@
+. .lib/var/git
+. .lib/var/my
+. .lib/var/auth
+. .lib/var/course
+
 name=edx-helper
 
 uni=~/uni
@@ -8,11 +13,7 @@ dl_dir=$photon/ark
 
 venv=$photon/$name
 
-bin=$venv/bin/$name
+bin=$venv/bin/$developer.$name
 
 bacDir=/mnt/chromeos/MyFiles/Downloads
 
-. .lib/var/git
-. .lib/var/my
-. .lib/var/auth
-. .lib/var/course
